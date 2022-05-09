@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*HEADER*/
+header{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+}
+.speaker{
+    text-align: right;
+   
+}
+.view, .simbol {
+    margin-right: 5px;
+    background-color: grey;
+    padding: 3px 3px;
+    border-radius: 5% ;
+}
+
+ .speaker i  {
+     color: white;
+ }
+ .speaker span{
+    color: white;
+ }
+
+ /*MAIN*/
+
+main{
+    height: calc(100vh - 200px);
+    background-color: black;
+    overflow-y: auto;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    background-color: black;
+    margin: 0 auto;
+    justify-content: center;
+}
+.card{
+    margin: 5px;  
+    background-image: url("../imagine.jpg");
+    width: 250px;
+    height: 150px;
+    position: relative;
+}
+.card span{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.card i{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: green;
+    height: 120px;
+    width: 100;
+}
