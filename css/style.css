@@ -31,9 +31,10 @@ header{
  /*MAIN*/
 
 main{
-    height: calc(100vh - 200px);
+    height: calc(100vh - 180px);
     background-color: black;
     overflow-y: auto;
+    padding-bottom: 50px;
 }
 .card-container{
     display: flex;
@@ -47,7 +48,7 @@ main{
     margin: 5px;  
     background-image: url("../imagine.jpg");
     width: 250px;
-    height: 150px;
+    height: 145px;
     position: relative;
 }
 .card span{
@@ -67,7 +68,76 @@ main{
 /*FOOTER*/
 
 footer{
-    background-color: green;
-    height: 120px;
+    background-color:#222222;
+    height: 100px;
     width: 100;
+    display: flex;
+}
+.firstmenu{
+    background-color:none;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+}
+.secondmenu{
+    background-color: none;
+    width: 70%;
+}
+.end{
+    background-color:#4a4a4a;
+    width: 15%;
+}
+footer i {
+    color: white;
+}
+footer h5{
+    color: white;
+    margin-top: 10px;
+}
+.arrow{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.video{
+    margin-left: 30px;
+}
+.video i{
+    margin-left: 15px;
+}
+.secondmenu ul{
+    display: flex;
+   list-style: none;
+   justify-content: center;
+   margin-top: 30px;
+}
+li{
+    
+    padding: 0 8px;
+}
+#participants i{
+    margin-left: 35px;
+}
+#share i{
+    color: lightgreen;
+    margin-left: 20px;
+}
+li .arrow{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+#rooms i{
+    margin-left: 30px;
+}
+#record i{
+    margin-left: 5px;
+}
+#polling i{
+    margin-left: 3px;
+}
+.end h5{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
 }
